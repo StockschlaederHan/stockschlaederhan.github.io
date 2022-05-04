@@ -26,7 +26,10 @@ background-repeat: no-repeat;
   justify-content: center;
   padding-right: 15px;
   padding-left: 15px;
-  max-width:100%;
+  max-width: 100%;
+}
+.titleimage{
+  width: 100%;
 }
 .navbar{
   display: flexbox;
