@@ -1,0 +1,115 @@
+*{
+  font-family:Andale Mono, monospace;
+
+}
+@font-face {
+  font-family: 'PopFont';
+  src: url(BaksoSapi.otf);
+}
+body {
+  background-image: url("BackgroundImages/Flowers.png");
+  background-color:#3caea3;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.title{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 100%
+}
+.titleimage{
+  width: 100%;
+}
+.navbar{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.navbar2{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.navlink, .navlink:link, .navlink:active, .navlink:visited{
+  font-size: 20pt;
+  width: auto;
+  display: inline-flex;
+  font-family: PopFont;
+  text-decoration: none;
+  color: #faf9f9;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  text-align: center;
+  text-shadow: -3px 1px 0px #ED553B,
+                -6px 2px 0px #F6D55C,
+                 -9px 3px 0px #20639B,
+                 -12px 4px 0px #173F5F;
+}
+.navlink:hover{
+  color:#173F5F;
+  text-shadow: -3px 1px 0px #20639B,
+                 -9px 3px 0px #F6D55C,
+                 -12px 4px 0px #ED553B;
+}
+.navlink2, .navlink2:link, .navlink2:active, .navlink2:visited{
+  font-size: 20pt;
+  width: auto;
+  display: inline-flex;
+  font-family: PopFont;
+  text-decoration: none;
+  color: #ED553B;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  text-align: center;
+  text-shadow: -3px 1px 0px #faf9f9,
+                -6px 2px 0px #F6D55C,
+                 -9px 3px 0px #20639B,
+                 -12px 4px 0px #173F5F;
+}
+.navlink2:hover{
+  color:#F6D55C;
+  text-shadow: -3px 1px 0px #20639B,
+                 -9px 3px 0px #173F5F,
+                 -12px 4px 0px #ED553B;
+}
+
+.ar{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  max-width: 100%
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center
+
+}
+.imagesize{
+  object-fit: contain;
+  flex-wrap: wrap;
+  width: 50%;
+  height:auto;
+
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: PopFont;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  max-width: 100%;
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
