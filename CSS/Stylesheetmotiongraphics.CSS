@@ -3,14 +3,20 @@
   src: url(BaksoSapi.otf);
 }
 *{
-  font-family: PopFont;
+  font-family:PopFont;
+
 }
+li{
+  list-style: none;
+  display:inline-block;
+}
+
 body {
-background-image: url("BackgroundImages/Flowers.png");
-background-color:#3caea3;
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
+  background-image: url("BackgroundImages/Flowers.png");
+  background-color:#3caea3;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .title{
   display: flexbox;
@@ -22,7 +28,7 @@ background-repeat: no-repeat;
   max-width: 100%;
 }
 .titleimage{
-  width: 60%;
+    width: 60%;
 }
 a.imageLink{
     text-decoration:none;
@@ -56,47 +62,18 @@ a.imageLink{
                  -12px 4px 0px #ED553B;
 }
 
-.portfolioheader{
+
+.gallery{
   display: flexbox;
   text-align: center;
   align-items: center;
   justify-content: center;
   padding-right: 15px;
   padding-left: 15px;
-  max-width:100%;
-}
-.Table{
-  display: flexbox;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.imagesize{
-  width: 40%;
-  height: auto;
-  padding-right: 15px;
-  padding-left: 15px;
   margin: auto;
   max-width: 100%;
 }
-.imagesize2{
-  width: 25%;
-  height: 25%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: auto;
-  max-width: 100%;
-}
-.imagesize3{
-  width: 25%;
-  height: 25%;
-  padding-left: 75px;
-  max-width: 100%;
-}
-Header{
-  text-align: center;
-  color: #FB9F24;
-  font-size: 25px;
+
+video{
+  flex-wrap: wrap;
 }

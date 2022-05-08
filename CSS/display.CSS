@@ -3,32 +3,17 @@
   src: url(BaksoSapi.otf);
 }
 *{
-  font-family:PopFont;
-
+  font-family: PopFont;
 }
-li{
-  list-style: none;
-  display:inline-block;
-}
-
 body {
-  background-image: url("BackgroundImages/Flowers.png");
-  background-color:#3caea3;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+background-image: url("BackgroundImages/Flowers.png");
+background-color:#3caea3;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
 }
-.title{
-  display: flexbox;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding-right: 15px;
-  padding-left: 15px;
-  max-width: 100%;
-}
-.titleimage{
-    width: 60%;
+a.imageLink{
+    text-decoration:none;
 }
 .navbar{
   display: flexbox;
@@ -58,19 +43,35 @@ body {
                  -9px 3px 0px #F6D55C,
                  -12px 4px 0px #ED553B;
 }
-
-
-.gallery{
+.work_container{
   display: flexbox;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: auto;
-  max-width: 100%;
 }
-
-video{
-  flex-wrap: wrap;
+.video{
+  width: 50%;
+  height: auto;
+}
+.imagesize{
+  width: 50%;
+  height: auto;
+}
+.text{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.one{
+  color: #faf9f9;
+  font-size: 50pt;
+}
+.two{
+  color: #faf9f9;
+  font-size: 25pt;
+}
+.three{
+  color: #faf9f9;
+  font-size: 20pt;
 }

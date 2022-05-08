@@ -6,6 +6,9 @@
   font-family: 'PopFont';
   src: url(BaksoSapi.otf);
 }
+a.imageLink{
+    text-decoration:none;
+}
 body {
   background-image: url("BackgroundImages/Flowers.png");
   background-color:#3caea3;
