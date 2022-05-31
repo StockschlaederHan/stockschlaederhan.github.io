@@ -100,3 +100,13 @@ Header{
   color: #FB9F24;
   font-size: 25px;
 }
+h1{
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 100%;
+  color: #ED553B;
+}
